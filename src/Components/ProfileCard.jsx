@@ -1,11 +1,12 @@
 import React from "react";
+import profilePic from "../assets/2x2Nobg.png";
 
 export default function ProfileCard() {
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 max-w-2xl w-full text-center">
       {/* Profile */}
       <img
-        src="src/assets/2x2Nobg.png"
+        src={profilePic}
         alt="Michael Jordan Bermudo"
         className="w-40 h-40 object-cover mx-auto rounded-md mb-4"
       />
