@@ -46,15 +46,12 @@ export default function ProfileCard() {
       </p>
 
       <a
-        href="#"
+        href="https://calendly.com/jordsbermudo123/30min"
         className="inline-block bg-red-600 text-white px-6 py-2 rounded-lg shadow hover:bg-red-700 transition"
       >
-        Schedule a Discovery Call
+        Schedule a Meeting!
       </a>
 
-      <p className="text-gray-700 mt-4">
-        Time is limited. Hurry, before it’s too late!
-      </p>
     </div>
   );
 }

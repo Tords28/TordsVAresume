@@ -30,13 +30,13 @@ export default function App() {
               <a href="#" className="hover:underline">
                 Home
               </a>
-              <a href="#" className="hover:text-gray-200" aria-label="Facebook">
+              <a href="https://www.facebook.com/emdyey.bermudo" className="hover:text-gray-200" aria-label="Facebook">
                 <FaFacebookF />
               </a>
-              <a href="#" className="hover:text-gray-200" aria-label="Instagram">
+              <a href="https://www.instagram.com/jordsdr/" className="hover:text-gray-200" aria-label="Instagram">
                 <FiInstagram />
               </a>
-              <a href="#" className="hover:text-gray-200" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/michael-jordan-bermudo" className="hover:text-gray-200" aria-label="LinkedIn">
                 <FaLinkedinIn />
               </a>
             </nav>
