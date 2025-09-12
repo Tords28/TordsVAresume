@@ -3,20 +3,19 @@ import profilePic from "../assets/2x2Nobg.png";
 
 export default function ProfileCard() {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6 max-w-2xl w-full text-center">
+    <div className="bg-white font-boldshadow-lg rounded-lg p-6 max-w-2xl w-full text-center">
       {/* Profile */}
       <img
         src={profilePic}
         alt="Michael Jordan Bermudo"
-        className="w-40 h-40 object-cover mx-auto rounded-md mb-4"
+        className="w-40 h-40 object-cover mx-auto rounded-md mb-4 "
       />
       <p className="mt-4 text-gray-600">
-        I know you feel tired and you lack spare time doing things by yourself.
+        I know how overwhelming it can be to juggle tasks and manage your time effectively.
         That’s the reason why I’m here to help you!
       </p>
       <p className="mt-2 text-gray-600 mb-6">
-        My name is Crestania and I’m a Virtual Assistant. I’m eager to help you
-        this year.
+        My name is Jordan and I’m a Virtual Assistant, Web Developer. I'm not going to take money from you.
       </p>
 
       {/* About Free Services */}
@@ -24,7 +23,7 @@ export default function ProfileCard() {
         It’s About Giving Free Services To You
       </h3>
       <p className="text-gray-700 mb-4">
-        And I want to do this in the form of saving my time for you within 7
+        And I want to do this in the form of saving my time for you within 5
         days, considering I only need to work 3 hours per day part-time.
       </p>
       <p className="text-gray-700 mb-4">
@@ -47,7 +46,7 @@ export default function ProfileCard() {
 
       <a
         href="https://calendly.com/jordsbermudo123/30min"
-        className="inline-block bg-red-600 text-white px-6 py-2 rounded-lg shadow hover:bg-red-700 transition"
+        className="bg-red-400 hover:bg-red-500 cursor-pointer text-white px-6 py-3 rounded-md shadow inline-block"
       >
         Schedule a Meeting!
       </a>

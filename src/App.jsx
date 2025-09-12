@@ -5,6 +5,7 @@ import ProfileCard from "./Components/ProfileCard.jsx";
 import ServicesSection from "./Components/ServiceSection.jsx";
 import Reasons from "./Components/Reasons.jsx";
 import LoadingScreen from "./Components/LoadingScreen";
+import ScrollToTop from "./Components/ScrollUp.jsx";
 
 export default function App() {
   const [loadingDone, setLoadingDone] = useState(false);
@@ -16,37 +17,35 @@ export default function App() {
 
       {/* Main Content */}
       {loadingDone && (
-        <div className="min-h-screen bg-gradient-to-r from-blue-200 via-white to-blue-200">
+        <div className="min-h-screen bg-gradient-to-r from-blue-100 via-white to-blue-100">
           {/* Navbar */}
           <header className="flex justify-between items-center px-6 py-4 bg-[#1a252f] text-white">
             <div className="flex flex-col items-start">
               <h1 className="text-2xl font-semibold">MICHAEL JORDAN BERMUDO</h1>
               <div className="text-lg font-semibold mt-2">
-                <p>VA | Web Developer</p>
+                <p>Virtual Assistant | Web Developer </p>
               </div>
             </div>
 
-            <nav className="flex items-center gap-4">
-              <a href="#" className="hover:underline">
-                Home
-              </a>
+            <nav className="flex items-center gap-4 ">
+             
               <a href="https://www.facebook.com/emdyey.bermudo" className="hover:text-gray-200" aria-label="Facebook">
-                <FaFacebookF />
+                <FaFacebookF className="text-2xl"/>
               </a>
               <a href="https://www.instagram.com/jordsdr/" className="hover:text-gray-200" aria-label="Instagram">
-                <FiInstagram />
+                <FiInstagram className="text-2xl" />
               </a>
               <a href="https://www.linkedin.com/in/michael-jordan-bermudo" className="hover:text-gray-200" aria-label="LinkedIn">
-                <FaLinkedinIn />
+                <FaLinkedinIn className="text-2xl" />
               </a>
             </nav>
           </header>
 
           {/* Hero Section */}
           <section className="text-center py-10 px-4">
-            <h2 className="text-5xl font-bold text-red-700 mb-2">VTC</h2>
+            <h2 className="text-5xl font-bold text-red-700 mb-2">Virtual Assistant Service</h2>
             <h3 className="text-2xl font-semibold mb-4">
-              Virtual Assistant Services
+              
             </h3>
             <p className="text-gray-700 max-w-2xl mx-auto">
               “I help Busy Small and Medium Business Owners Work on their Online
@@ -68,7 +67,10 @@ export default function App() {
           <div>
             <Reasons />
           </div>
+          {/* ✅ Scroll To Top Button */}
+          <ScrollToTop />
         </div>
+       
       )}
     </>
   );

@@ -11,7 +11,7 @@ const services = [
   { icon: <MdOutlineAdminPanelSettings className="text-3xl text-blue-600 mx-auto" />, title: "Administrative Support", desc: "If you have daily tasks or admin work that keep you busy, I can lend an extra hand. I’m easy to train and detail-oriented." },
   { icon: <FaReact className="text-3xl text-purple-600 mx-auto" />, title: "Web Development", desc: "I build responsive websites using React, TailwindCSS, and WordPress to strengthen your online presence." },
   { icon: <FaProjectDiagram className="text-3xl text-green-600 mx-auto" />, title: "Project Management", desc: "Keep your projects running smoothly with proper tracking and organization." },
-  { icon: <FaFacebookF className="text-3xl text-pink-600 mx-auto" />, title: "Social Media Management", desc: "I can manage Facebook, Instagram, and LinkedIn accounts to keep your audience engaged." },
+  { icon: <FaFacebookF className="text-3xl text-blue-600 mx-auto" />, title: "Social Media Management", desc: "I can manage Facebook, Instagram, and LinkedIn accounts to keep your audience engaged." },
   { icon: <FiDatabase className="text-3xl text-yellow-600 mx-auto" />, title: "Data & Research", desc: "Save time by letting me handle research and organizing data to support your business decisions." },
   { icon: <RiUserStarFill className="text-3xl text-indigo-600 mx-auto" />, title: "Personal Assistant", desc: "Whether preparing documents, marketing materials, or travel arrangements — I can help." },
   { icon: <FaEnvelopeOpenText className="text-3xl text-red-600 mx-auto" />, title: "Email Marketing", desc: "I can set up campaigns, newsletters, and automations to reach your customers effectively." },
@@ -21,7 +21,7 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="py-16 px-6 bg-white">
+    <section className="py-16 px-6 bg-white border-t-2 border-b-2 border-gray-300">
       <motion.h2
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
